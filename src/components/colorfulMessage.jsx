@@ -1,12 +1,13 @@
 import React from "react";
 
 const ColorfulMessage = (props) => {
+  const { color, children } = props;
   const testStyle = {
     fontSize: "20px",
-    color: props.color
+    color
   };
 
-  return <h2 style={testStyle}>{props.children}</h2>;
+  return <h2 style={testStyle}>{children}</h2>;
 };
 
 export default ColorfulMessage;
