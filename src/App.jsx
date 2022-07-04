@@ -1,6 +1,6 @@
 /* eslint react-hooks/exhaustive-deps: off */
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./components/colorfulMessage";
+import { ColorfulMessage } from "./components/colorfulMessage";
 
 const App = () => {
   const [num, setNum] = useState(0);
